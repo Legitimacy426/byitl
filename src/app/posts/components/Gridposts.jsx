@@ -18,7 +18,8 @@ console.log(data)
       {/* cards grid */}
       <div className="grid md:grid-cols-3 grid-col-1 gap-4 my-10">
      {posts.map((post)=>(
-           <div className=" border  p-4 bg-white">
+       
+           <div key={post.id} className=" border  p-4 bg-white">
            <FaBeer className="text-2xl " />
            <h1 className="text-xl font-bold py-2">{post.title}</h1>
            <p className="py-2">
