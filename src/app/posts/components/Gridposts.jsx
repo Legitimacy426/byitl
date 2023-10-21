@@ -7,7 +7,6 @@ const data = await res.json()
 
 const posts = data.project
 
-console.log(data)
 
   return (
     <main className="p-7">
